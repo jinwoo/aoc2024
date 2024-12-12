@@ -1,4 +1,6 @@
-#lang racket
+#lang racket/base
+
+(require racket/vector)
 
 (define (read-input)
   (let ([line (with-input-from-file "./input/day09.txt" #:mode 'text

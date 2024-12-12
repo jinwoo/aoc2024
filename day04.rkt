@@ -1,4 +1,6 @@
-#lang racket
+#lang racket/base
+
+(require racket/list)
 
 (define (string->vector s)
   (list->vector (string->list s)))

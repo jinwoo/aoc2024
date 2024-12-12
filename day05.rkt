@@ -1,4 +1,8 @@
-#lang racket
+#lang racket/base
+
+(require racket/list
+         racket/match
+         racket/string)
 
 (define (parse-rule s)
   (match (string-split s "|")

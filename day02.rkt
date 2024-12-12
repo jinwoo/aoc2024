@@ -1,4 +1,6 @@
-#lang racket
+#lang racket/base
+
+(require racket/port)
 
 (define (read-input)
   (with-input-from-file "./input/day02.txt" #:mode 'text
